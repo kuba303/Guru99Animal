@@ -21,3 +21,10 @@ $lion = new Lion('Canirval', 'Meat');
 
 // dump($cow);
 // dump($lion);
+// echo '<b>Cow Object</b>';
+// echo ' The cow belongs to the ' . $cow->get_family() . ' family nad eats ' . $cow->get_food() . '<br>';
+
+$string = ' The cow belongs to the ' . $cow->get_family() . ' family nad eats ' . $cow->get_food() . '<br>';
+$string2 = ' The lion belongs to the ' . $lion->get_family() . ' family and eats ' . $lion->get_food() . '<br>';
+dump($string);
+dump($string2);
