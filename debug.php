@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 function dump($data)
 {
   echo '<br/><div 

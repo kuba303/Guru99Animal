@@ -1,6 +1,6 @@
 <?php
 
-// declare(strict_types=1);
+declare(strict_types=1);
 
 class Animal
 {
@@ -12,7 +12,7 @@ class Animal
     $this->family = $family;
     $this->food = $food;
   }
-  public function get_family()
+  public function get_family(): string
   {
     return $this->family;
   }
@@ -20,7 +20,7 @@ class Animal
   {
     $this->family = $family;
   }
-  public function get_food()
+  public function get_food(): string
   {
     return $this->food;
   }
